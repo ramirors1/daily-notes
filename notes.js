@@ -33,11 +33,11 @@ const createNote = (note) => {
     const newNote = lastItemId 
     return newNote
 }
-var currentdate = new Date();
-var datetime = "Last Sync: " + currentdate.getDay() + "/" + currentdate.getMonth() 
-+ "/" + currentdate.getFullYear() + " @ " 
-+ currentdate.getHours() + ":" 
-+ currentdate.getMinutes() + ":" + currentdate.getSeconds();
+var currentDate = new Date();
+var datetime = "Last Sync: " + currentDate.getDay() + "/" + currentDate.getMonth() 
++ "/" + currentDate.getFullYear() + " @ " 
++ currentDate.getHours() + ":" 
++ currentDate.getMinutes() + ":" + currentDate.getSeconds();
 
 const newNote = "createNote"
-console.log(newNote, currentdate)
+console.log(newNote, currentDate)
